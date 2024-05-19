@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+}
+.nav-link{
+    display:flex;
+    gap: 1rem;
+}
+.nav-link>a{
+    text-decoration: none;
+    color: black;
+}
+nav>button{
+    padding: 0.5rem;
+    border: 1px solid #387042;
+    border-radius:15px;
+    background-color: white;
+    width:10rem;
+    color:#387042;
+}
+nav>button:hover{
+    background-color:#387042;
+    color:white;
+    transition-delay: 0.05s;
+    transition-duration: 0.1s;
+}
+.A{
+    display:flex;
+    min-height: 80vh;
+    padding-left: 2rem;
+    margin-top: 100px;
+}
+.A > .left{
+    width:50%
+}
+.A>.right{
+    width:50%;
+    padding-left: 3rem;
+}
+.A>.left>h1{
+    font-size: 60px;
+}
+.A>.left>p{
+    font-size: 25px;
+}
+.A>.left>button{
+    background-color: #387042;
+
+    color: white;
+    width: 10rem;
+    padding: 0.7rem;
+    border: 1px solid #387042;
+
+    border-radius:15px;
+}
+ 
+/* second page */
+
+.B{
+    display: flex;
+    background-color: #132516;
+    ;
+    padding: 3rem 2rem 3rem 2rem;
+}
+.B>.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+.B>.right{
+    padding: 2rem 0rem 0rem 1rem;
+    width: 50%;
+}
+.B>.right>.box{
+    padding-top: 2rem;
+}
+.B>.right>p{
+    font-size: 20px;
+    color: rgb(204, 184, 184);
+    padding-left: 2rem;
+}
+.B>.right>h3{
+    font-size: 34px;
+    color: white;
+    padding-left: 2rem;
+}
+.right>.box>img{
+    width: 49.5%;
+}
+
+/* Third page */
+
+.C{
+    display: flex;
+    padding: 3rem;
+}
+.C>.left, .right{
+    width: 50%;
+}
+.C > .left{
+    padding-right: 3rem;
+    font-size: 20px;
+}
+.mid > .mid1{
+    display: flex;
+    gap: 1rem;
+}
+.mid > .mid1 >img{
+    width: 60px;
+    height: 60px;
+}
+.right > .up{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+.right > .up > img{
+    width: 50%;
+}
+.right > .down > img{
+    width: 100%;
+}
+.mid > .btn > button{
+    background-color: #387042;
+    color: white;
+    width: 10rem;
+    padding: 0.7rem;
+    border: 1px solid #387042;
+    border-radius: 15px;
+}
+
+/* fourth page */
+
+.D{
+    display: flex;
+    background-color:  #132516;
+    padding: 3rem;
+    color: white;
+}
+.D > .left .right{
+    width: 50%;
+}
+.D > .right{
+    padding-left: 2rem;
+}
+.dropdown > .dd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown-content{
+    display: none;
+}
+.dropdown:active .dropdown-content{
+    display: block;
+}
+
+/* Contact us link */
+
+.bbox{
+    background-color:  #132516;
+    margin: 7rem;
+    color: white;
+    border-radius: 10px;
+    padding: 2rem;
+}
+.bbox > .btn{
+    padding-top: 2rem;
+}
+.bbox > .btn > button{
+    background-color: #387042;
+    ;
+    color: white;
+    width: 10rem;
+    padding: 0.7rem;
+    border: 1px solid #387042;
+    ;
+    border-radius: 15px;
+}
+.Q > h1{
+    font-size: 50px;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
