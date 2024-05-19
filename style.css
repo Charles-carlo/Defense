@@ -173,6 +173,9 @@ nav>button:hover{
 
 /* Contact us link */
 
+.E{
+    position: relative;
+}
 .bbox{
     background-color:  #132516;
     margin: 7rem;
@@ -183,18 +186,21 @@ nav>button:hover{
 .bbox > .btn{
     padding-top: 2rem;
 }
-.bbox > .btn > button{
+.bbox > .btn > a > button{
     background-color: #387042;
-    ;
     color: white;
     width: 10rem;
     padding: 0.7rem;
     border: 1px solid #387042;
-    ;
     border-radius: 15px;
 }
 .Q > h1{
     font-size: 50px;
+}
+.arrow{
+    position: absolute;
+    right: 0%;
+    bottom: -20%;
 }
 
 /* footer */
