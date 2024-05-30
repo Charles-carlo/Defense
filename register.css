@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav p{
+    font-size: 40px;
+}
+main{
+    padding: 8rem;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+form input[type="text"]{
+    padding: 0.7rem;
+    width: 30rem;
+    margin-bottom: 3rem;
+}
+form input[type="Email"]{
+    padding: 0.7rem;
+    width: 30rem;
+}
+form input[type="number"]{
+    padding: 0.7rem;
+    width: 30rem;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+}
+button{
+    background-color: #387042;
+    color: white;
+    width: 10rem;
+    padding: 0.7rem;
+    border: 1px solid #387042;
+    border-radius: 37px;
+    margin-top: 2rem;
+}
