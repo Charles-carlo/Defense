@@ -37,6 +37,9 @@ form input[type="number"]{
     display: flex;
     justify-content: end;
 }
+a{
+    margin-top: 2rem;
+}
 button{
     background-color: #387042;
     color: white;
@@ -44,5 +47,5 @@ button{
     padding: 0.7rem;
     border: 1px solid #387042;
     border-radius: 37px;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }

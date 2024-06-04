@@ -25,7 +25,7 @@ nav{
     text-decoration: none;
     color: black;
 }
-nav>button{
+nav>.btn>a>button{
     padding: 0.5rem;
     border: 1px solid #387042;
     border-radius:37px;
@@ -33,7 +33,7 @@ nav>button{
     width:10rem;
     color:#387042;
 }
-nav>button:hover{
+nav>.btn>a>button:hover{
     background-color:#387042;
     color:white;
     transition-delay: 0.05s;
@@ -58,7 +58,7 @@ nav>button:hover{
 .A>.left>p{
     font-size: 25px;
 }
-.A>.left>button{
+.A>.left>.btn>a>button{
     background-color: #387042;
     color: white;
     width: 10rem;
@@ -135,7 +135,7 @@ nav>button:hover{
 .right > .down > img{
     width: 100%;
 }
-.mid > .btn > button{
+.mid > .btn > a > button{
     background-color: #387042;
     color: white;
     width: 10rem;
